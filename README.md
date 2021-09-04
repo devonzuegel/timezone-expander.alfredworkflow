@@ -6,7 +6,7 @@ An [Alfred workflow](https://www.alfredapp.com/workflows) that helps you write t
 
 ### Example
 
-For example, if your system time is in Miami (ET) and you enter `tz 5pm PT Shanghai Zurich` in your Alfred launcher, this result will be pasted into your topmost app: `2pm PT / 5am Shanghai / 11pm Zurich`.
+If your system time is in Miami (ET) and you enter `tz 5pm PT Shanghai Zurich` in your Alfred launcher, this result will be pasted into your topmost app: `2pm PT / 5am Shanghai / 11pm Zurich`.
 
 Here's a breakdown of how the input works:
 - **`tz`** – This first argument is the command that tells to Alfred what workflow to run.
