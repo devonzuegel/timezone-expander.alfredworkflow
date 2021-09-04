@@ -1,0 +1,15 @@
+{
+  "name": "timezone-expander",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alfy": "^0.12.1",
+    "date-fns": "^2.23.0",
+    "date-fns-tz": "^1.1.6",
+    "string-similarity": "^4.0.4"
+  }
+}
