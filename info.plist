@@ -20,16 +20,6 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>830C1761-0BB3-41D9-AC3E-F8A738746655</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 		</array>
 		<key>8A920179-B636-4465-A1F1-66C544A085CD</key>
 		<array>
@@ -59,7 +49,7 @@
 			<key>config</key>
 			<dict>
 				<key>autopaste</key>
-				<false/>
+				<true/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
 				<key>ignoredynamicplaceholders</key>
@@ -94,35 +84,6 @@
 			<string>8A920179-B636-4465-A1F1-66C544A085CD</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alignment</key>
-				<integer>0</integer>
-				<key>backgroundcolor</key>
-				<string></string>
-				<key>fadespeed</key>
-				<integer>0</integer>
-				<key>fillmode</key>
-				<integer>0</integer>
-				<key>font</key>
-				<string></string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>largetypetext</key>
-				<string>{query}</string>
-				<key>textcolor</key>
-				<string></string>
-				<key>wrapat</key>
-				<integer>50</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.largetype</string>
-			<key>uid</key>
-			<string>830C1761-0BB3-41D9-AC3E-F8A738746655</string>
-			<key>version</key>
-			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -174,13 +135,6 @@ Need help with workflows? Pop by the forum (alfredforum.com) if you have any fur
 			<integer>485</integer>
 			<key>ypos</key>
 			<integer>10</integer>
-		</dict>
-		<key>830C1761-0BB3-41D9-AC3E-F8A738746655</key>
-		<dict>
-			<key>xpos</key>
-			<integer>455</integer>
-			<key>ypos</key>
-			<integer>135</integer>
 		</dict>
 		<key>8A920179-B636-4465-A1F1-66C544A085CD</key>
 		<dict>
