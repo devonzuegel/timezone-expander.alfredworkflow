@@ -4,7 +4,7 @@ An [Alfred workflow](https://www.alfredapp.com/workflows) that helps you write t
 
 ### Example
 
-<small>You can find more examples in [`test.js`](./test.js).</small>
+<sup>You can find more examples in [`test.js`](./test.js).</sup>
 
 For example, if your system time is in Miami (ET) and you enter `tz 5pm PT Shanghai Zurich` in your Alfred launcher, this result will be pasted into your topmost app: `2pm PT / 5am Shanghai / 11pm Zurich`.
 
