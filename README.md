@@ -2,7 +2,7 @@ An [Alfred workflow](https://www.alfredapp.com/workflows) that helps you write t
 
 ---
 
-For example, if your system time is in Miami and you enter `tz 5pm PT Shanghai Zurich`, you'll get this result pasted into your topmost app: `2pm PT / 5am Shanghai / 11pm Zurich`.
+For example, if your system time is in Miami (ET) and you enter `tz 5pm PT Shanghai Zurich`, you'll get this result pasted into your topmost app: `2pm PT / 5am Shanghai / 11pm Zurich`.
 
 A few notes about how the input works:
 - The first argument (`5pm`) is your local time. In this example, that means it's 5pm in Miami, which is in the Eastern Timezone.
