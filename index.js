@@ -390,6 +390,10 @@ const city_to_tz = (city) => {
     case 'berlin':
       return 'Europe/Berlin'
 
+    case 'new zealand':
+    case 'nz':
+      return 'Pacific/Auckland'
+
     default:
       return strSimilarity.findBestMatch(city, tzNames).bestMatch.target
   }
@@ -399,7 +403,9 @@ const pprint = (obj) => {
   console.log(JSON.stringify(obj, null, 2))
 }
 
-const [local_time, ...cities] = alfy.input.split('/').map((s) => s.trim())
+const [local_time, ...cities] = alfy.input
+  .split(alfy.input.includes('/') ? '/' : ' ')
+  .map((s) => s.trim())
 
 /**
  * local_time: fuzzy date with case-insensitive am/pm ("10am", "11:30pm", "7:43AM")
