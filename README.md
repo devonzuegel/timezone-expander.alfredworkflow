@@ -2,7 +2,7 @@ An [Alfred workflow](https://www.alfredapp.com/workflows) that helps you write t
 
 <h3 style="text-align: center">⚡️ <a href="./timezone-expander.alfredworkflow">Install workflow</a> ⚡️</h3>
 
----
+### Examples
 
 For example, if your system time is in Miami (ET) and you enter `tz 5pm PT Shanghai Zurich` in your Alfred launcher, this result will be pasted into your topmost app: `2pm PT / 5am Shanghai / 11pm Zurich`.
 
@@ -17,6 +17,11 @@ The input can handle either spaces and slashes as delimiters. This means that al
 - `tz 5pm/PT/Shanghai/Zurich`
 - `tz 5pm / PT / Shanghai / Zurich`
 
----
-
 You can find more examples in [`test.js`](./test.js).
+
+### Installation
+
+1. Find your `Alfred.alfredpreferences`, right-click on it, and select "Show package contents". You should now see a list of directories that includes one called `workflows`.
+2. Download this directory, and drag it into the `workflows` directory.
+3. Open this directory in your terminal and install the dependencies with `npm install`.
+4. Now, when you open your Alfred Preferences from the Alfred launcher, you should see a new workflow called `Timezone expander` in the left-hand sidebar. If so, you should be able to use this workflow from the launcher now! 🎉
