@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>foo</string>
+	<string>timezone-expander</string>
 	<key>category</key>
 	<string>Productivity</string>
 	<key>connections</key>
@@ -36,7 +36,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string></string>
+	<string>Devon Zuegel</string>
 	<key>description</key>
 	<string></string>
 	<key>disabled</key>
@@ -147,6 +147,6 @@ Need help with workflows? Pop by the forum (alfredforum.com) if you have any fur
 	<key>version</key>
 	<string>1.0</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>devonzuegel.com</string>
 </dict>
 </plist>
