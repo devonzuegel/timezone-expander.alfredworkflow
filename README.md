@@ -1,10 +1,10 @@
 An [Alfred workflow](https://www.alfredapp.com/workflows) that helps you write the same time  in multiple timezones.
 
-⚡️ [**Install workflow**](./timezone-expander.alfredworkflow) ⚡️
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ⚡️ [**Install workflow**](./timezone-expander.alfredworkflow) ⚡️
+
+---
 
 ### Example
-
-<sup>You can find more examples in [`test.js`](./test.js).</sup>
 
 For example, if your system time is in Miami (ET) and you enter `tz 5pm PT Shanghai Zurich` in your Alfred launcher, this result will be pasted into your topmost app: `2pm PT / 5am Shanghai / 11pm Zurich`.
 
@@ -19,6 +19,9 @@ The input can handle either spaces and slashes as delimiters. This means that al
 - `tz 5pm/PT/Shanghai/Zurich`
 - `tz 5pm / PT / Shanghai / Zurich`
 
+<sub>You can find more examples in [`test.js`](./test.js).</sub>
+
+---
 
 ### Installation
 
