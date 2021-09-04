@@ -8,23 +8,11 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
-		<key>2E6996BF-880C-456A-A8CC-5FC97EA1A5AF</key>
-		<array/>
 		<key>4A009174-DD5C-40F8-9CA7-3C9985E9D292</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>7CAE867E-8A3A-4A4C-B5B0-7E2BEB324369</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>830C1761-0BB3-41D9-AC3E-F8A738746655</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -60,21 +48,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>searcher</key>
-				<integer>1635215215</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.systemwebsearch</string>
-			<key>uid</key>
-			<string>2E6996BF-880C-456A-A8CC-5FC97EA1A5AF</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>autopaste</key>
 				<false/>
 				<key>clipboardtext</key>
@@ -97,7 +70,7 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>tze</string>
+				<string>tz</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -178,40 +151,33 @@ You'll find out more about this feature in the Snippet Trigger object documentat
 Need help with workflows? Pop by the forum (alfredforum.com) if you have any further questions :)</string>
 	<key>uidata</key>
 	<dict>
-		<key>2E6996BF-880C-456A-A8CC-5FC97EA1A5AF</key>
-		<dict>
-			<key>xpos</key>
-			<integer>855</integer>
-			<key>ypos</key>
-			<integer>230</integer>
-		</dict>
 		<key>4A009174-DD5C-40F8-9CA7-3C9985E9D292</key>
 		<dict>
 			<key>xpos</key>
-			<integer>275</integer>
+			<integer>245</integer>
 			<key>ypos</key>
-			<integer>1215</integer>
+			<integer>135</integer>
 		</dict>
 		<key>7CAE867E-8A3A-4A4C-B5B0-7E2BEB324369</key>
 		<dict>
 			<key>xpos</key>
-			<integer>515</integer>
+			<integer>485</integer>
 			<key>ypos</key>
-			<integer>1090</integer>
+			<integer>10</integer>
 		</dict>
 		<key>830C1761-0BB3-41D9-AC3E-F8A738746655</key>
 		<dict>
 			<key>xpos</key>
-			<integer>485</integer>
+			<integer>455</integer>
 			<key>ypos</key>
-			<integer>1215</integer>
+			<integer>135</integer>
 		</dict>
 		<key>8A920179-B636-4465-A1F1-66C544A085CD</key>
 		<dict>
 			<key>xpos</key>
-			<integer>75</integer>
+			<integer>45</integer>
 			<key>ypos</key>
-			<integer>1180</integer>
+			<integer>100</integer>
 		</dict>
 	</dict>
 	<key>version</key>
