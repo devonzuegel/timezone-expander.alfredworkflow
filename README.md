@@ -1,6 +1,6 @@
 An [Alfred workflow](https://www.alfredapp.com/workflows) that helps you write the same time  in multiple timezones.
 
-<h3 style="text-align: center">⚡️ <a href="./timezone-expander.alfredworkflow">Install workflow</a> ⚡️</h3>
+⚡️ [**Install workflow**](./timezone-expander.alfredworkflow) ⚡️
 
 ### Examples
 
