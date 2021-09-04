@@ -20,6 +20,16 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>830C1761-0BB3-41D9-AC3E-F8A738746655</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>8A920179-B636-4465-A1F1-66C544A085CD</key>
 		<array>
