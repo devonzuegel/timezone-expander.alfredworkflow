@@ -86,6 +86,7 @@ const toSentenceCase = (str) => {
 
 export const tz_expander = (input, test) => {
   const [local_time, ...cities] = input
+    .trim()
     .split(input.includes('/') ? '/' : ' ')
     .map((s) => s.trim())
 

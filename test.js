@@ -10,6 +10,7 @@ const tests = [
   ['9am UK', '2pm UK'],
   ['2pm/pt/et', '11am PT / 2pm ET'],
   ['2pm/SF/miami', '11am SF / 2pm Miami'],
+  ['2pm/SF/miami   ', '11am SF / 2pm Miami'],
 ]
 
 const results = tests.map(([input, expected]) => {
