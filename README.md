@@ -27,3 +27,14 @@ The input can handle either spaces and slashes as delimiters. This means that al
 2. Download this directory, and drag it into the `workflows` directory.
 3. Open this directory in your terminal and install the dependencies with `npm install`.
 4. Now, when you open your Alfred Preferences from the Alfred launcher, you should see a new workflow called `Timezone expander` in the left-hand sidebar. If so, you should be able to use this workflow from the launcher now! 🎉
+
+---
+
+# Running the script from the command line
+
+Works something like this:
+(not exactly though, I was too lazy to fully figure it out — this is for future Devon to deal with)
+
+```bash
+/usr/bin/osascript ~/Downloads/Multi\ Timezones\ \(2\)/timezone-expander.js 3pm PT
+```
